@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Works | My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/works.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="header-nav">
+                <ul>
+                    <li>
+                        <a href="index.html" class="border-bottom">Home</a>
+                    </li>
+                    <li>
+                        <a href="profile.html" class="border-bottom">profile</a>
+                    </li>
+                    <li>
+                        <a href="#">works</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="container">
+                <i class="fa fa-3x fa-angle-down"></i>
+                <i class="fa fa-2x fa-times"></i>
+            </div>
+        </header>
+
+        <div id="top">
+            <div class="container">
+                <h1>Works</h1>
+                <div class="works">
+                    <div class="work portfolio-img">
+                        <img src="./images/prog-8.png">
+                        <a href="#web-site" class="img-hover">Web Site</a>
+                    </div>
+                    <div class="work portfolio-img">
+                        <img src="./images/rails.jpg">
+                        <a href="#tweet-app" class="img-hover">Tweet app</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content-wrapper">
+            <section id="web-site">
+                <div class="container content" style="background-color:rgb(16, 16, 17)">
+                    <h1>Web Site</h1>
+                    <div class="explanation">
+                        <p>プログラミング学習サイト「Progate」にてHTML, CSS, jQueryを用いて作成したウェブサイトです。</p>
+                        <p>基本的な静的ページの作り方を学びながら作成しました。コードとサンプルは<a href="https://github.com/rei9n22/portfolio">こちら</a></p>
+                    </div>
+                    <img src="./images/work_website.png">
+                </div>
+            </section>
+
+            <section id="tweet-app">
+                <div class="container content" style="background-color: rgb(22, 41, 41);">
+                    <h1>Tweet App</h1>
+                    <div class="explanation">
+                        <p>プログラミング学習サイト「Progate」のRuby on Railsコースにて作成した、Twitterのようなウェブアプリです。</p>
+                        <p>MVCモデルの考え方から、データベースを用いたツイート投稿機能や、ログイン・アウト機能、編集・削除機能、アクセス制限、いいね機能などを学びながら実装しました。
+                        </p>
+                        <div class="samples">
+                            <div class="content">
+                                <img src="./images/work_twitter_top.png">
+                                <p>↑トップページ</p>
+                            </div>
+                            <div class="content">
+                                <img src="./images/work_twitter_login.png">
+                                <p>↑ログインページ</p>
+                            </div>
+                            <div class="content">
+                                <img src="./images/work_twitter_after-login.png">
+                                <p>↑ログイン後</p>
+                            </div>
+                            <div class="content">
+                                <img src="./images/work_twitter_user-page.png">
+                                <p>↑ユーザーページ</p>
+                            </div>
+                            <div class="content">
+                                <img src="./images/work_twitter_authentication.png">
+                                <p>↑アクセス制限</p>
+                            </div>
+                            <div class="content">
+                                <img src="./images/work_twitter_like.png">
+                                <p>↑いいね機能</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="profile.html">profile</a></li>
+                        <li><a href="#">works</a></li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+                <div class="contact">
+                    <a href="https://www.facebook.com/rei.niiyama.5" target="_brank" rel="noopener noreferrer">
+                        <i class="fa fa-2x fa-facebook-square facebook"></i>
+                    </a>
+                    <a href="https://github.com/rei9n22" target="_brank" rel="noopener noreferrer">
+                        <i class="fa fa-2x fa-github-square github"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
